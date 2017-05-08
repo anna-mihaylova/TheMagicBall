@@ -1,0 +1,244 @@
+body {
+    font-family: 'roboto_slabregular', Arial, sans-serif;
+    font-size: 1.57vw;
+    line-height: 20px;
+    letter-spacing: 2px;
+    overflow: hidden;
+    background: #e1be5c;
+    color: #32d2f1;
+}
+
+main, section, div, p {
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('../img/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: url('../img/red.png'), auto;
+    z-index: 1;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="button"] {
+    width: 60%;
+    height: 8%;
+    position: absolute;
+    left: 20%;
+    background-color: #32d2f1;
+    font-family: 'roboto_slabregular', Arial, sans-serif;
+    color: #0a0a0a;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 11;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #082a43;
+}
+
+input[type="button"]:hover {
+    background-color: #0a0a0a;
+    color: #32d2f1;
+}
+
+input[type="button"]:active {
+    background-color: #082a43;
+    box-shadow: 0 1px #32d2f1;
+    transform: translateY(2px);
+}
+
+input#howToPlayButton {
+    bottom: 10%;
+}
+
+section#play {
+    width: 100%;
+    height: 110%;
+    position: absolute;
+    top: 0;
+    background-image: url('../img/start.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+nav {
+    width: 20%;
+    height: 97%;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    background-image: url('../img/nav.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 3;
+}
+
+.div {
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    right: 1%;
+    border-radius: 15px;
+    z-index: 4;
+    text-transform: capitalize;
+}
+
+.div.points {
+    top: 1%;
+}
+
+.div.speed {
+    top: 13%;
+}
+
+.div.blue.balls {
+    top: 25%;
+}
+
+.div.purple.balls {
+    top: 37%;
+}
+
+.div.yellow.balls {
+    top: 49%;
+}
+
+.div.green.balls {
+    top: 61%;
+}
+
+.img, h4 {
+    display: inline;
+    position: absolute;
+}
+
+h4 {
+    left: 20%;
+    bottom: 0%;
+}
+
+h4.value {
+    left: 83%;
+    font-weight: bold;
+}
+
+.img {
+    width: 13%;
+    height: 50%;
+    left: 2%;
+    bottom: 0%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 5;
+}
+
+.img.points {
+    background: url('../img/coins.png');
+    background-size: 100% 100%;
+}
+
+.img.speed {
+    background: url('../img/speed.png');
+    background-size: 100% 100%;
+}
+
+.img.blue.balls {
+    background: url('../img/blue.png');
+    background-size: 100% 100%;
+}
+
+.img.purple.balls {
+    background: url('../img/purple.png');
+    background-size: 100% 100%;
+}
+
+.img.yellow.balls {
+    background: url('../img/yellow.png');
+    background-size: 100% 100%;
+}
+
+.img.green.balls {
+    background: url('../img/green.png');
+    background-size: 100% 100%;
+}
+
+.board {
+    width: 78%;
+    height: 98%;
+    position: absolute;
+    top: 0.5%;
+    left: 0.5%;
+    right: 20%;
+    z-index: 3;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #32d2f1;
+    position: absolute;
+    z-index: 5;
+}
+
+div#alert {
+    width: 30%;
+    height: 20%;
+    margin: 25%;
+    color: #32d2f1;
+    line-height: 1.5em;
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    text-align: center;
+    z-index: 20;
+}
+
+div#rules {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 2%;
+    background-color: #32d2f1;
+    color: #0a0a0a;
+    font-family: 'roboto_slabregular', Arial, sans-serif;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-overflow: clip;
+    border: 1px solid #7263a4;
+    border-radius: 15px;
+    cursor: url('../img/delete-icon.png'), auto;
+    z-index: 7;
+}
+
+div#rules span {
+    display: block;
+    text-align: justify;
+}
+
+div#rules p {
+    margin: 2%;
+}
+
+.hidden {
+    display: none;
+}

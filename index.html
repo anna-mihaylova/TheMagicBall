@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>The Magic Ball</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/font/stylesheet.css" type="text/css" charset="utf-8" />
+    </head>
+    <body>
+        <main>
+            <section id="game" class="background">
+                <nav id="score">
+                    <div class="points div">
+                        <div id="points" class="img points"></div>
+                        <span>
+                            <h4 class="points">points:</h4>
+                        </span>
+                        <span class="value points">
+                            <h4 id="pointsValue" class="points value">0</h4>
+                        </span>
+                    </div>
+                    <div class="blue balls div">
+                        <div id="blueBalls" class="img blue balls"></div>
+                        <span>
+                            <h4 class="blue balls">blue balls:</h4>
+                        </span>
+                        <span class="blue balls value ">
+                            <h4 id="blueBallsValue" class="blue balls value">0</h4>
+                        </span>
+                    </div>
+                    <div class="purple balls div">
+                        <div id="purpleBalls" class="img purple balls"></div>
+                        <span>
+                            <h4 class="purple balls">purple balls:</h4>
+                        </span>
+                        <span class="purple balls value ">
+                            <h4 id="purpleBallsValue" class="purple balls value">0</h4>
+                        </span>
+                    </div>
+                    <div class="yellow balls div">
+                        <div id="yellowBalls" class="img yellow balls"></div>
+                        <span>
+                            <h4 class="yellow balls">yellow balls:</h4>
+                        </span>
+                        <span class="yellow balls value ">
+                            <h4 id="yellowBallsValue" class="yellow balls value">0</h4>
+                        </span>
+                    </div>
+                    <div class="green balls div">
+                        <div id="greenBalls" class="img green balls"></div>
+                        <span>
+                            <h4 class="green balls">green balls:</h4>
+                        </span>
+                        <span class="green balls value ">
+                            <h4 id="greenBallsValue" class="green balls value">0</h4>
+                        </span>
+                    </div>
+                    <div class="speed div">
+                        <div id="speedBalls" class="img speed"></div>
+                        <span>
+                            <h4 class="speed">speed:</h4>
+                        </span>
+                        <span class="speed value ">
+                            <h4 id="speedValue" class="speed value">0</h4>
+                        </span>
+                    </div>
+                    <input type="button" id="howToPlayButton" name="" value="rules">
+                </nav>
+                <section id="board" class="board">
+                    <div id="rules" class="hidden">
+                        <h1>The Magic Ball</h1>
+                        <p>
+                            <span>There are 6 different types of snow balls. They are in total 100
+                            balls. The Twilight pony is trying to avoid a ball hit.
+                            If pony succeeds to avoid 70 hits, the game is won and the town
+                            will be saved from the hard winter.</span>
+                        </p>
+                        <h3>How to play:</h3>
+                        <p>
+                            <span>There are five balls with different colors:</span>
+                            <span>The blue one is increasing the speed of the ball by 2 points</span>
+                            <span>The green one is slowing down the speed of the ball by 2 pointss</span>
+                            <span>The purple one is decreasing the points by 10</span>
+                            <span>The yellow one in increasing the points by 10</span>
+                        </p>
+                        <h3>The control keys are:</h3>
+                        <p>
+                            <span>Left arrow – move on left</span>
+                            <span>Right arrow – move on right</span>
+                            <span>Up arrow – move on up</span>
+                            <span>Down arrow – move on down</span>
+                        </p>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </body>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/utils.js"></script>
+    <script type="text/javascript" src="assets/js/Ball.js"></script>
+    <script type="text/javascript" src="assets/js/PlayerBall.js"></script>
+    <script type="text/javascript" src="assets/js/Game.js"></script>
+    <script type="text/javascript" src="assets/js/ExtraBall.js"></script>
+    <script type="text/javascript" src="assets/js/BlueBall.js"></script>
+    <script type="text/javascript" src="assets/js/GreenBall.js"></script>
+    <script type="text/javascript" src="assets/js/YellowBall.js"></script>
+    <script type="text/javascript" src="assets/js/PurpleBall.js"></script>
+    <script type="text/javascript" src="assets/js/BallManager.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</html>

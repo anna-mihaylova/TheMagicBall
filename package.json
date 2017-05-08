@@ -1,0 +1,22 @@
+{
+  "name": "ball_game",
+  "version": "1.0.0",
+  "description": "\"# ball_game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anna-mihaylova/ball_game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anna-mihaylova/ball_game/issues"
+  },
+  "homepage": "https://github.com/anna-mihaylova/ball_game#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
